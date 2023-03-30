@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.list-item {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #d2d2d2;
+  font-weight: bold;
+}
+
+.list-item:hover {
+  cursor: pointer;
+}
+
+.description {
+  border: 1px solid #d2d2d2;
+  text-align: left;
+  padding: 0.5rem 0.5rem 1rem;
+}
